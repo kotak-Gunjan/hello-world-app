@@ -23,22 +23,28 @@ Before running the application, ensure you have the following installed on your 
    git clone https://github.com/your-username/hello-world-node.git
    
 2. Navigate to the project directory:
+   ```bash
    cd hello-world-node
    
-3. Install dependencies:
+4. Install dependencies:
+    ```bash
    npm install
 
-4. Run the application:
+6. Run the application:
+   ```bash
    node app.js
    
 Open your web browser and visit http://localhost:3000 to see the "Hello, World!" message.
 
 ### Docker Containerization
+
 considering docker is installed in your system.
 1. Build the Docker image:
-docker build -t hello-world-node .
+   ```bash
+   docker build -t hello-world-node .
 
 2. Run the Docker container:
-docker run -p 3000:3000 hello-world-node
+   ```bash
+   docker run -p 3000:3000 hello-world-node
 
 Visit http://localhost:3000 to see the "Hello, World!" message served from the Docker container.
