@@ -4,6 +4,7 @@ metadata:
   name: hello-world-app
   annotations:
     github.com/project-slug: kotak-Gunjan/hello-world-app
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: other
   lifecycle: unknown
